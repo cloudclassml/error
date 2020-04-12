@@ -1,107 +1,85 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!--如果这和黑客攻击有关，那我们祝福黑客去死 微笑 -->
+<html><head>
 	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>云课堂网 - 维护通知</title>
-</head>
 <style>
-@charset "utf-8";
-
-::selection {
-    background: #ff6500;
-    color: #fff;
+    ::selection{
+	background:#ff6500;
+	color:#fff;
+}
+::-moz-selection{
+	background:#ff6500;
+	color:#fff;
 }
 
-::-moz-selection {
-    background: #ff6500;
-    color: #fff;
+*{
+	margin: 0;
+	padding: 0;
 }
-
-* {
-    margin: 0;
-    padding: 0;
+body,html{
+	width: 100%;
+	height: 100%;
 }
-
-body,
-html {
-    width: 100%;
-    height: 100%;
+body{
+	background: #fafafa;
+	font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Source Han Sans SC,Noto Sans CJK SC,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 }
-
-body {
-    background: #fafafa;
-    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Source Han Sans SC,Noto Sans CJK SC,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+.notice-wrap{
+	padding-top: 30px;
 }
-
-.notice-wrap {
-    padding-top: 30px;
+.notice{
+	margin: 0 auto;
+	max-width: 640px;
+	height: 34em;
+	background: url(https://i.loli.net/2020/04/12/dGgilm51LzpetOZ.png)  no-repeat top center;
+	border-radius: 1.5em;
+	background-size: cover;
 }
-
-.notice {
-    margin: 0 auto;
-    width: 640px;
-    height: 34em;
-    background: url(https://i.loli.net/2020/04/12/dGgilm51LzpetOZ.png) no-repeat top center;
-    border-radius: 1.5em;
+.notice h1{
+	font-size: 36px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 1.1em;
+	padding-top: 215px;
 }
-
-.notice h1 {
-    font-size: 36px;
-    color: #333;
-    text-align: center;
-    margin-bottom: 1.1em;
-	padding-top: 225px;
-
+.notice-inner>p{
+	margin: 0 2em;
+	font-size: 18px;
+	color: #666;
+	text-indent: 36px;
+	line-height: 40px;
 }
-
-.notice>p {
-    margin: 0 62px;
-    font-size: 18px;
-    color: #666;
-    text-indent: 36px;
-    line-height: 40px;
+p span{
+	color: #ff6500;
 }
-
-p span {
-    color: #ff6500;
+.notice .notice-cont{margin-top: 0.5em;}
+.notice .notice-tel{
+	padding-bottom: 1em;
 }
-
-.notice .notice-cont {
-    margin-top: 0.5em;
+.notice-foot{
+	margin-top: 1em;
+	padding: 1em;
+	border-top: 2px solid #f2f2f2;
 }
+.notice-foot p{
+	font-size: 18px;
+	color: #666;
+	text-align: center;}
 
-.notice .notice-tel {
-    padding-bottom: 1em;
-}
+.notice:after {content: "";background: #ff6500;width: 100%;height: 90%;display: block;position: relative;top: -30em;border-radius: 1.5em;box-shadow: 0 1em 2em -1em #ff6c0b;z-index: -1;}
 
-.notice-foot {
-    margin-top: 1em;
-    padding: 1em;
-    border-top: 2px solid #f2f2f2;
+.notice-inner {
+	max-height: 33em;
+	overflow: auto;
 }
+    </style>
+    </head>
 
-.notice-foot p {
-    font-size: 18px;
-    color: #666;
-    text-align: center;
-}
-
-.notice:after {
-    content: "";
-    background: #ff6500;
-    width: 100%;
-    height: 90%;
-    display: block;
-    position: relative;
-    top: -90%;
-    border-radius: 1.5em;
-    box-shadow: 0 1em 2em -1em #ff6c0b;
-    z-index: -1;
-}
-</style>
 <body>
 	<div class="notice-wrap">
 		<div class="notice">
+    <div class="notice-inner">
 			<h1>临时维护通知</h1>
 			<p class="notice-cont">您好！<span>云课堂网</span>发生了一些技术意外。</p>
 			<p class="notice-tel">我们正在进行维护，预计恢复时间在：<span>2020/04/13 0：00</span>！</p>
@@ -110,9 +88,10 @@ p span {
 			<div class="notice-foot">
 				<p>技术维护</p>
 			</div>
-			
+			</div>
+    
 		</div>
 	</div>
-</body>
-<!--如果这和黑客攻击有关，那我们祝福黑客去死 微笑 -->
-</html>
+
+
+</body></html>
