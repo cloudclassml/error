@@ -1,0 +1,52 @@
+ {
+ "announcements": [
+ {
+ "title": "value1",
+ "url": "http://www.example.com"
+ },
+ {
+ "title": "2value",
+ "url": "http://www.example.com"
+ }
+ ],
+ "carousel": [
+ {
+ "image": "http://via.placeholder.com/150",
+ "url": "http://www.example.com",
+ "title": "这是第一张轮播图"
+ },
+ {
+ "image": "http://via.placeholder.com/150",
+ "url": "http://www.example.com",
+ "title": "value2"
+ },
+ {
+ "image": "http://via.placeholder.com/150",
+ "url": "http://www.example.com",
+ "title": "value3"
+ },
+ {
+ "image": "http://via.placeholder.com/150",
+ "url": "http://www.example.com",
+ "field": "value4"
+ }
+ ],
+ "search_hotwords": [
+ "Martin Garrix",
+ "HARDWELL",
+ "TIËSTO",
+ "MARSHMELLO",
+ "Avicii"
+ ],
+ "can_register": false,
+ "opening_image": [
+ {
+ "image": "http://via.placeholder.com/150",
+ "url": "http://via.placeholder.com/150"
+ },
+ {
+ "image": "http://via.placeholder.com/150",
+ "url": "http://via.placeholder.com/150"
+ }
+ ]
+ }
