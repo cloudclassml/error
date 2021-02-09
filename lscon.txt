@@ -11,24 +11,28 @@
  ],
  "carousel": [
  {
+ "num": "1",
  "image": "http://via.placeholder.com/150",
  "url": "http://www.example.com",
  "describe": "描述一",
  "title": "这是第一张轮播图"
  },
  {
+ "num": "2",
  "image": "http://via.placeholder.com/150",
  "url": "http://www.example.com",
  "describe": "描述二",
  "title": "value2"
  },
  {
+ "num": "3",
  "image": "http://via.placeholder.com/150",
  "url": "http://www.example.com",
  "describe": "描述三",
  "title": "value3"
  },
  {
+ "num": "4",
  "image": "http://via.placeholder.com/150",
  "url": "http://www.example.com",
  "describe": "描述四",
